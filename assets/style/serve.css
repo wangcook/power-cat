@@ -1,0 +1,53 @@
+.serveW {
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.serveW .container {
+  width: 1200px;
+  height:100%;
+  position: relative;
+  top: -100px;
+  background: white;
+  z-index: 11;
+  text-align: center;
+}
+.serveW .col-md-6{
+	height: 537px;
+	color: #8c8c8c;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-align: center;
+}
+.serveW .col-md-6 img{
+	display: inline-block;
+	margin: 10px;
+}
+.serveW .col-md-6 h3{
+	color: white;
+	margin-top: 70px;
+}
+.serveW .col-md-6 p{
+	margin-top: 20px;
+	margin-bottom: 45px;
+	font-size: 15px;
+	color: #dedde0;
+}
+.serveW .col-md-4 img{
+	padding-left: 50px;
+}
+.serveW .col-md-4 p:nth-of-type(1){
+	font-size: 20px;
+	line-height: 40px;
+}
+.serveW .col-md-4{
+	color: #333333;
+}
+.serveW .cooperation .row img{
+	float: left;
+}
+.serveW .cooperation .row{
+	padding-left: 80px;
+}

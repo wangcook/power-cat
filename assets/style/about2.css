@@ -1,0 +1,148 @@
+.aboutW2{
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #f5f5f5;
+}
+.aboutW2 .container{
+  width: 1200px;
+  height:100%;
+  position: relative;
+  top: -100px;
+  background: white;
+  z-index: 11;
+  text-align: center;
+  padding-top: 10px;
+  /*overflow: hidden;*/
+}
+.aboutW2 .container .logo{
+	position: absolute;
+	top: -70px;
+	left:44%;
+}
+.aboutW2 .container .row1{
+	margin:0 100px;
+}
+.aboutW2 .container .row1 h4{
+	margin-bottom: 60px;
+	font-size: 30px;
+	color: #333131;
+}
+.aboutW2 .container .row1 h4:nth-of-type(1){
+	color: red;
+}
+.aboutW2 .container .row1 .row img{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.aboutW2 .container .row1 .row img:nth-of-type(2){
+	margin: 0 12%;
+}
+.aboutW2 .container .row1 p{
+	line-height: 34px;
+	font-size: 16px;
+	color: #4e4c4c;
+}
+.aboutW2 .container .row .col-md-3{
+	padding-top: 50px;
+}
+.aboutW2 .container .row .col-md-3 img{
+	margin: 0 auto;
+}
+.aboutW2 .container .row .serviceF{
+	color: white;
+	font-size: 26px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+.aboutW2 .container .service p{
+	font-size: 16px;
+	color:#bababa;
+	line-height: 36px;
+}
+.aboutW2 .container .service p a{
+	font-size: 16px;
+	color:#bababa;
+}
+.aboutW2 .container .service p span{
+	color: #626262;
+}
+
+.aboutW2 .container button{
+	width: 29%;
+	height: 6%;
+	background:red;
+	line-height: 70px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	border: 0;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.aboutW2 .container .row .col-md-4{
+	padding: 0;
+	/*height: 420px;*/
+	color: #333131;
+}
+.aboutW2 .container .row .col-md-4 h4{
+	padding-top: 45px;
+	color: #ff0000;
+}
+.aboutW2 .container .row .col-md-4 p{
+	padding-top: 24px;
+	line-height: 26px;
+}
+
+.aboutW2 .container .row .col-md-4 img,.aboutW2 .container .row0 img{
+	width: 100%;
+	/*margin-bottom: 55px;*/
+}
+.aboutW2 .container  h2{
+	font-size: 30px;
+	color: red;
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+.aboutW2 .container .row0 h3{
+	line-height: 135px;
+	color: #333333;
+}
+.aboutW2 .container .row0 .team1{
+	width: 20%;
+	float: left;
+}
+.aboutW2 .container .row .student{
+	border: 1px solid white;
+	/*width: 1158px;
+	height: 340px;*/
+	margin: 1.66% auto;
+	padding-left: 6%;
+	padding-top: 6%;
+	text-align: left;
+  position: relative;
+}
+.aboutW2 .container .row .student h2{
+  margin: 0;
+  font-size: 36px;
+  color: white;
+}
+.aboutW2 .container .row .student p{
+  font-size: 20px;
+  line-height: 48px;
+  color: #fff5f5;
+}
+.aboutW2 .container .row .student p:nth-of-type(1){
+	margin-top: 20px;
+}
+.aboutW2 .container .row .student a{
+	position: relative;
+	left:-23px;
+}
+.aboutW2 .container .row .student span{
+	position: absolute;
+	top: 22%;
+	right: 13.5%;
+}
