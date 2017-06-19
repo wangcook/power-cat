@@ -1,0 +1,140 @@
+.aboutPLD{
+  width: 100%;
+  height: auto;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
+  background: #f5f5f5;
+}
+.aboutPLD .container{
+  width: 1200px;
+  height:100%;
+  position: relative;
+  top: -70px;
+  background: white;
+  z-index: 11;
+  text-align: center;
+  padding-top: 10px;
+  /*overflow: hidden;*/
+}
+.aboutPLD .container .logo{
+	position: absolute;
+	top: -70px;
+	left:38%;
+}
+.aboutPLD .container .row1{
+	margin:0 100px;
+}
+.aboutPLD .container .row1 img{
+	margin:0 auto;
+}
+.aboutPLD .container .row1 h4{
+	margin-bottom: 60px;
+	font-size: 30px;
+	color: #333131;
+}
+.aboutPLD .container .row1 h4:nth-of-type(1){
+	color: red;
+}
+.aboutPLD .container .row1 .row img{
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 35px;
+}
+.aboutPLD .container .row1 .row img:nth-of-type(2){
+	margin: 0 12%;
+}
+.aboutPLD .container .row1 p{
+	line-height: 34px;
+	font-size: 16px;
+	color: #4e4c4c;
+}
+.aboutPLD .container .row .col-md-2{
+	padding-top: 50px;
+	width: 20%;
+}
+.aboutPLD .container .row img{
+	margin: 0 auto;
+}
+.aboutPLD .container .row .serviceF{
+	color: white;
+	font-size: 26px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+.aboutPLD .container .service p{
+	font-size: 16px;
+	color:#bababa;
+	line-height: 36px;
+}
+.aboutPLD .container .service p a{
+	font-size: 16px;
+	color:#bababa;
+}
+
+.aboutPLD .container .row .col-md-4{
+	padding: 0;
+	/*height: 420px;*/
+	color: #333131;
+}
+.aboutPLD .container .cooperation .row .col-md-3{
+	width: 33.33%;
+	margin-top: 50px;
+}
+.aboutPLD .container .cooperation .row .col-md-3 img{
+	margin-bottom: 30px;
+}
+.aboutPLD .container .row .col-md-4 h4{
+	padding-top: 45px;
+	color: #ff0000;
+}
+.aboutPLD .container .row .col-md-4 p{
+	padding-top: 24px;
+	padding-bottom: 50px;
+	line-height: 26px;
+}
+
+.aboutPLD .container .row .col-md-4 img,.aboutPLD .container .row0 img{
+	width: 100%;
+	/*margin-bottom: 55px;*/
+}
+.aboutPLD .container  h2{
+	font-size: 30px;
+	color: red;
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+.aboutPLD .container .col-md-12 p{
+	color: black;
+	margin-bottom: 60px;
+}
+.aboutPLD .container .row0 h3{
+	line-height: 135px;
+	color: #333333;
+}
+
+.aboutPLD .container .recruit .col-md-3{
+	width: 33.33%;
+	margin-top: 50px;
+}
+.aboutPLD .container .recruit .col-md-3 p a{
+	font-size: 28px;
+	color: #333333;
+}
+.aboutPLD .container .recruit .col-md-3 p {
+	font-size: 16px;
+	color: black;
+	line-height: 40px;
+}
+.aboutPLD .container .row p{
+	font-size: 16px;
+}
+.aboutPLD .container .foot p:nth-of-type(1){
+	color: black;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.aboutPLD .container .foot p:nth-of-type(2){
+	color: black;
+	margin-bottom: 100px;
+}
+

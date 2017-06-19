@@ -46,14 +46,15 @@ $a.click(
 	}
 );
 
-var swiper = new Swiper('.swiper-container', {
-	pagination: '.swiper-pagination',
-	paginationClickable: '.swiper-pagination',
-	nextButton: '.swiper-button-next',
-	prevButton: '.swiper-button-prev',
-	spaceBetween: 30,
-	effect: 'fade'
-});
+ var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+     });
 
 //导航滑动
 window.onload = function() {

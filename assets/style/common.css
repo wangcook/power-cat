@@ -268,13 +268,13 @@ header .nav > li > a:focus, .nav > li > a:hover {
   background: #000;
 }
 .banner .swiper-button-next {
-  right: -50px;
+  right: -150px;
   width: 400px;
   height: 100%;
   top: 0;
 }
 .banner .swiper-button-prev {
-  left: -50px;
+  left: -150px;
   top: 0;
   height:100%;
   width: 400px;

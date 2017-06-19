@@ -35,8 +35,34 @@
 	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
 }
+.aboutW .container .sub .col-md-4:hover{
+	background: red;
+}
+.aboutW .container .sub .col-md-4:hover img:nth-of-type(1){
+	display: none;
+}
+.aboutW .container .sub .col-md-4:hover img:nth-of-type(2){
+	display: block;
+}
+.aboutW .container .sub .col-md-4:hover a{
+	color: white;
+}
 .aboutW .container .sub .col-md-4 img{
-	height: 237px;
+	height: 173px;
+}
+.aboutW .container .sub .col-md-4 a p{
+	font-size: 17px;
+}
+.aboutW .container .sub .col-md-4 a span{
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	border-radius: 10px;
+	background:#dadada;
+	
+}
+.aboutW .container .sub .col-md-4 img:nth-of-type(2){
+	display: none;
 }
 .aboutW .container .power .col-md-4{
 	padding: 0;
@@ -46,6 +72,7 @@
 .aboutW .container .power .col-md-4 img{
 	height: 240px;
 }
+
 .aboutW .container .power .col-md-4 h3{
 	font-size: 22px;
 	line-height: 100px;
@@ -86,7 +113,6 @@
 }
 /*history*/
 .aboutW .container .history img{
-	margin: 90px 0;
 }
 .aboutW .container .history .row{
 	position: relative;
@@ -94,64 +120,62 @@
 .aboutW .container .history .row .t{
 	position: absolute;
 	border-radius: 10px;
-	background: #434343;
-	color: white;
-	text-align: center;
+	color: #333333;
+	text-align: left;
 	height: 90px;
-	padding-top:20px ;
 	top: 0;
-	font-size: 15px;
+	font-size: 14px;
 }
 .aboutW .container .history .row .t p:nth-of-type(1){
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+}
+.aboutW .container .history .row .t p:nth-of-type(2){
+	line-height: 25px;
 }
 .aboutW .container .history .row .t1{
-	width: 115px;
-	left: 14px;
+	left: 943px;
+	top: 326px;
 }
 
 .aboutW .container .history .row .t2{
-	width: 167px;
-	left: 220px;
+	top: 326px;
+	left: 540px;
 }
 .aboutW .container .history .row .t3{
-	width: 170px;
-	left: 455px;
+	top: 326px;
+	left: 226px;
 }
 .aboutW .container .history .row .t4{
-	width: 168px;
-	left: 688px;
+	top: 115px;
+	left: 382px;
 }
 .aboutW .container .history .row .t5{
-	width: 197px;
-	right: 86px;
+	top: 115px;
+	left: 728px;
 }
 .aboutW .container .history .row .t6{
-	width: 167px;
-	left: 103px;
-	top: 198px;
+	left: 728px;
+	top: 326px;
 }
 
 .aboutW .container .history .row .t7{
-	width: 188px;
-	left: 327px;
-	top: 198px;
+	top: 326px;
+	left: 382px;
 }
 .aboutW .container .history .row .t8{
-	width: 127px;
-	left: 594px;
-	top: 198px;
+	top: 115px;
+	left: 226px;
 }
 .aboutW .container .history .row .t9{
-	width: 168px;
-	right: 220px;
-	top: 198px;
+	top: 115px;
+	left: 540px;
 }
 .aboutW .container .history .row .t10{
-	width: 116px;
-	right: 10px;
-	top: 198px;
+	top: 115px;
+	left: 943px;
 }
 /**/
 .aboutW .container .activity .swiper-pagination-bullet {
