@@ -90,7 +90,7 @@ function startMove(obj, target) {
 		} else {
 			obj.style.left =obj.offsetLeft + speed+ 'px';
 		}
-	}, 10);
+	}, 1);
 
 }
 

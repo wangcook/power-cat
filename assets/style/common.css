@@ -115,21 +115,59 @@ input {
 .to-animate {
   opacity: 0;
 }
-header {
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #fff;
-  font-size: 16px;
-  z-index: 5;
-}
+
 header .navbar .navbar-collapse .navbar-nav li {
     margin: 0 ;
 }
-/*导航滑动效果*/
+/************************小于1200的小屏********************************/
+@media (max-width: 1200px){
+	
+	header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  background: black;
+  color: #fff;
+  font-size: 16px;
+	}
+
+	 header{
+  background: black;
+}
+
+ .container .navbar-collapse .bj li {
+    /*float: left;*/
+    /*width: 82px;*/
+    text-align: left;
+    position: relative;
+    z-index: 11;
+}
+.container .navbar-collapse .bj {
+	list-style: none;
+	line-height: 50px;
+	color: white;
+	position: relative;
+}
+
+.container{
+	top: 0!important;
+}
+ .index .container{
+  	padding-left: 15px !important;
+    padding-right: 15px!important;
+  }
+}
+
+
+
+
+
+	
+
+/**********************1200px大屏**************************/
+@media (min-width: 1200px){
 .bj {
 	list-style: none;
 	width: 592px;
@@ -137,6 +175,10 @@ header .navbar .navbar-collapse .navbar-nav li {
 	line-height: 50px;
 	color: white;
 	position: relative;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
 }
 
 .bj li {
@@ -157,31 +199,40 @@ header .navbar .navbar-collapse .navbar-nav li {
 	border-bottom: 3px solid white;
 	margin-left: 10px;
 }
+header {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 16px;
+  z-index: 5;
+}
+header .navbar .navbar-collapse .navbar-nav li:hover a{
+ color: white;
+}
+header .navbar .navbar-collapse .navbar-nav .dropdown-menu li a{
+ color:black;
+}
+header .navbar .navbar-collapse .navbar-nav .dropdown-menu li:hover{
+ background:black;
+}
+header .navbar .navbar-collapse .navbar-right .dropdown .dropdown-toggle .brands{
+	margin-left: 20px;
+}
+
+
+}
 /*********************************/
+header .navbar .navbar-collapse .navbar-nav{
+	padding-top: 15px;
+	
+}
 header .header .navbar{
 	background: rgba(1,1,1,0);
 	border:0;
 }
-/*header .l_droplist ul li .dropdown-toggle {
-  color: #fff;
-  background: none;
-  padding: 0;
-}
-
-header .l_droplist ul li .dropdown-toggle:focus {
-  background: none;
-}
-header .nav_banner_list {
-  font-size: 16px;
-  height: 100%;
-  display: inline-block;
-  margin-left: 30px;
-  border: 0;
-}
-header .nav_banner_list li {
-  width: 86px;
-  height: 100%;
-}*/
  header .bj > li > a {
     color: white;
 }
@@ -199,47 +250,16 @@ header .navbar-default .navbar-nav > li > a {
   position: relative;
 }
 .index header .header {
-  width: 1200px;
+  /*width: 1200px;*/
   height: 100%;
   margin: 0 auto;
 }
 .index header .header .logoa {
   display: inline-block;
-  vertical-align: top;
+ margin-top: 20px;
 }
 
-header .navbar .navbar-collapse .navbar-nav{
-	padding-top: 15px;
-	
-}
-header .navbar .navbar-collapse .navbar-nav li:hover a{
- color: white;
-}
-header .navbar .navbar-collapse .navbar-nav .dropdown-menu li a{
- color:black;
-}
-header .navbar .navbar-collapse .navbar-nav .dropdown-menu li:hover{
- background:black;
-}
-header .navbar .navbar-collapse .navbar-right .dropdown .dropdown-toggle .brands{
-	margin-left: 20px;
-}
-/*header .navbar .navbar-collapse .navbar-nav .dropdown-menu li:hover a{
- color:black;
-}*/
-/*header .navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover {
-    background-color: rgba(1,1,1,0);
-}
-header .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
-    color: white;
-}*/
-/*header .navbar-default .navbar-nav > li > a:hover {
-    background-color: transparent;
-}
-header .nav > li > a:focus, .nav > li > a:hover {
-    text-decoration: none;
-    background-color: #eee;
-}*/
+
 .banner {
   width: 100%;
   background: #000;
@@ -317,7 +337,7 @@ footer {
   padding-bottom: 50px;
 }
 footer .container {
-  width: 1200px;
+  /*width: 1200px;*/
 }
 footer .container .footer_des {
   width: 46%;
@@ -378,17 +398,7 @@ footer .container {
 @media screen and (max-width: 1920px){
 	.index{margin: 0 auto;}
 }
-@media  not print and(max-width:1200px){
-	.index{
-		width: 1200px;
-	}
-	.container {
-    width: 1200px !important;
-  }
-  .container  .row{
-    width: 1200px !important;
-  }
-}
+
 .index .container{
 	padding-left: 0;
 	padding-right: 0;
