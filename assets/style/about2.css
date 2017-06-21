@@ -6,15 +6,12 @@
   background: #f5f5f5;
 }
 .aboutW2 .container{
-  width: 1200px;
   height:100%;
   position: relative;
-  top: -100px;
   background: white;
   z-index: 11;
   text-align: center;
   padding-top: 10px;
-  /*overflow: hidden;*/
 }
 .aboutW2 .container .logo{
 	position: absolute;
@@ -22,7 +19,7 @@
 	left:44%;
 }
 .aboutW2 .container .row1{
-	margin:0 100px;
+	margin:0 8.5%;
 }
 .aboutW2 .container .row1 h4{
 	margin-bottom: 60px;
@@ -94,6 +91,7 @@
 .aboutW2 .container .row .col-md-4 p{
 	padding-top: 24px;
 	line-height: 26px;
+	padding-bottom: 15px;
 }
 
 .aboutW2 .container .row .col-md-4 img,.aboutW2 .container .row0 img{
@@ -116,9 +114,7 @@
 }
 .aboutW2 .container .row .student{
 	border: 1px solid white;
-	/*width: 1158px;
-	height: 340px;*/
-	margin: 1.66% auto;
+	margin: 1.66% 1.66%;
 	padding-left: 6%;
 	padding-top: 6%;
 	text-align: left;
@@ -145,4 +141,68 @@
 	position: absolute;
 	top: 22%;
 	right: 13.5%;
+}
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.aboutW2 .container {
+  width: 1200px;
+  top: -100px;
+}
+	.aboutW2 .container button{
+	width: 29%;
+	height: 6%;}
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	
+.aboutW2 .container button{
+	width: 200px;
+	height: 70px;}
+	
+	.aboutW2 .container .service{
+		padding:0 5%;
+	
+}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
 }

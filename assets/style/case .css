@@ -6,19 +6,13 @@
   background: #f5f5f5;
 }
 .caseW .container{
-  width: 1200px;
   height:100%;
   position: relative;
-  top: -100px;
   background: white;
   z-index: 11;
   text-align: center;
   padding-top: 10px;
 }
-/*.caseW .container .nav1{
-	padding-top:15px; 
-	padding-bottom:25px; 
-}*/
 .caseW .container .nav1 li{
 	background:#e6e6e6;
 	width: 110px;
@@ -95,7 +89,30 @@
 
 
 
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.caseW .container {
+  width: 1200px;
+  top: -100px;
+}
+	
+	
+	
+}
 
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	
+
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
 
 
 

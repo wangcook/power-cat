@@ -6,10 +6,8 @@
   background: #f5f5f5;
 }
 .aboutPLD .container{
-  width: 1200px;
   height:100%;
   position: relative;
-  top: -70px;
   background: white;
   z-index: 11;
   text-align: center;
@@ -22,7 +20,7 @@
 	left:38%;
 }
 .aboutPLD .container .row1{
-	margin:0 100px;
+	margin:0 8.5%;
 }
 .aboutPLD .container .row1 img{
 	margin:0 auto;
@@ -48,7 +46,7 @@
 	font-size: 16px;
 	color: #4e4c4c;
 }
-.aboutPLD .container .row .col-md-2{
+.aboutPLD .container .row .r1{
 	padding-top: 50px;
 	width: 20%;
 }
@@ -143,3 +141,45 @@
 	margin-bottom: 100px;
 }
 
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.aboutPLD .container {
+  width: 1200px;
+  top: -70px;
+}
+	
+	
+	
+}
+
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	
+.aboutPLD .container .row .r1{
+	margin: 0 auto!important;
+	width: 100%;
+} 
+	.aboutPLD .container .service{
+		padding:0 5%;
+	
+}
+
+.aboutPLD .container .cooperation .row .col-md-3 {
+    width: 100%;
+    margin: 10% auto!important;
+}
+
+.aboutPLD .container .recruit .col-md-3 {
+    width: 100%;
+    margin: 10% auto!important;
+}
+
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}

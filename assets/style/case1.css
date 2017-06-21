@@ -1,27 +1,24 @@
 .caseW2{
   width: 100%;
   height: auto;
-  /*padding-top: 50px;*/
   padding-bottom: 100px;
   background: #f5f5f5;
 }
 .caseW2 .content1{
-  width: 1200px;
   height:100%;
   position: relative;
-  top: -100px;
   background: white;
   z-index: 11;
   text-align: center;
   padding-top: 10px;
 }
 .caseW2 .container .row1{
-	margin: 0 80px;
+	margin: 0 8.5%;
 	text-align: left;
 	position: relative;
 }
 .caseW2 .container .row1 h1{
-	font-size: 60px;
+	font-size: 3.75em;
 	color: #ff0000;
 	line-height: 80px;
 }
@@ -47,8 +44,7 @@
 	line-height: 60px;
 	border-bottom: 1px solid #e6e6e6;
 	border-top: 1px solid #e6e6e6;
-	height: 60px;
-	margin: 60px 0;
+	margin: 10% 0;
 }
 .caseW2 .container .row1 p:nth-of-type(3){
 	margin-top: 35px;
@@ -58,16 +54,45 @@
 	width: 100%;
 }
 
-.caseW2 .container{
-  width: 1200px;
-  height: 100%;
-}
-.caseW2 .footW{
-	/*margin-bottom: 50px;*/
-	
-}
 .caseW2 .footW h2{
 	color: red;
 	font-size: 30px;
 	margin-bottom: 35px;
 }
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.caseW2 .container {
+  width: 1200px;
+  top: -100px;
+}
+	
+	
+	
+}
+
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	
+.caseW2 .container .row1 h1{
+	font-size: 2em;
+	line-height: 2.2em;
+}
+
+.caseW2 .footW {
+	padding-top: 10%!important;
+}
+
+.caseW2 .col-lg-4{
+	margin-bottom: 5%;
+}
+
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+

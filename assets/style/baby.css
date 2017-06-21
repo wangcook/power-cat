@@ -5,10 +5,8 @@
   padding-bottom: 90px;
 }
 .babyW .content1{
-  width: 1200px;
   height:100%;
   position: relative;
-  top: -100px;
   background: white;
   z-index: 11;
   text-align: center;
@@ -17,12 +15,8 @@
 .babyW .container .row img{
 	width: 100%;
 }
-.babyW .container {
-	width: 1200px;
-	height: 100%;
-}
 .babyW .container .app{
-	padding: 100px 80px 0 80px;
+	padding: 10% 6.67% 0 6.67%;
 	text-align:justify;
 	text-justify:distribute-all-lines;
 	font-size: 18px;
@@ -56,4 +50,65 @@
 	font-size: 30px;
 	margin-bottom: 35px;
 	text-align: left;
+}
+
+
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.babyW .container {
+  width: 1200px;
+  top: -100px;
+}
+	.babyW .footW .row .col-lg-4 img{
+	height: 200px;
+}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	.babyW .footW {
+	padding-top: 10%!important;
+}
+
+.footW .col-lg-4{
+	margin-bottom: 5%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
 }
