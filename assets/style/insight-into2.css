@@ -6,22 +6,20 @@
   background: #f5f5f5;
 }
 .insightW2 .container{
-  width: 1200px;
   height:100%;
   position: relative;
-  top: -100px;
   background: white;
   z-index: 11;
   text-align: center;
   padding-top: 10px;
 }
 .insightW2 .container .row1{
-	margin: 0 80px;
+	margin: 0 8.5%;
 	text-align: left;
 	position: relative;
 }
 .insightW2 .container .row1 h1{
-	font-size: 60px;
+	font-size: 3.75em;
 	color: #ff0000;
 }
 
@@ -34,12 +32,11 @@
 	line-height: 60px;
 	border-bottom: 1px solid #e6e6e6;
 	border-top: 1px solid #e6e6e6;
-	height: 60px;
-	margin: 60px 0;
+	margin: 5% 0;
 }
 .insightW2 .container .row1 p:nth-of-type(3){
-	margin-top: 35px;
-	margin-bottom: 80px;
+	margin-top: 15px;
+	margin-bottom: 40px;
 }
 .insightW2 .container .row1 span{
 	position: absolute;
@@ -51,12 +48,53 @@
 	width: 100%;
 }
 .insightW2 .container .row2{
-	margin: 0 100px;
+	margin: 0 10%;
 	text-align: left;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .insightW2 .container .row2 h2{
 	font-size: 32px;
 	color: #313131;
-	line-height: 154px;
+	margin: 5% 0;
 }
+.insightW2 .container .f1{
+	margin: 40px 0;
+}
+
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.insightW2 .container {
+  width: 1200px;
+  top: -100px;
+}
+
+.insightW2 .container .row1 p:nth-of-type(3){
+	margin-top: 35px;
+	margin-bottom: 80px;
+}
+
+.insightW2 .container .row2{
+	margin-top: 80px!important;
+}
+	.insightW2 .container .f1{
+	margin: 80px 0;
+}
+}
+
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	
+.insightW2 .container .row1 h1{
+	font-size: 2em;
+}
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+

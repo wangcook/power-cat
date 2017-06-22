@@ -18,6 +18,10 @@
 .aboutW .container .Wp1{
 	line-height: 92px;
 }
+.aboutW .container .Wp1 span img{
+	display: inline-block;
+	margin-top: 42px;
+}
 .aboutW .container .Wp2{
 	line-height: 32px;
 	color: #ff0000;

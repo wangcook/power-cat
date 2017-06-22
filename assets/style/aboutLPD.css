@@ -109,9 +109,7 @@
 	line-height: 135px;
 	color: #333333;
 }
-.aboutPLD .container .roww img{
-	height: 278px;
-}
+
 .aboutPLD .container .roww .col-md-6 img{
 	width: 100%;
 }
@@ -148,7 +146,9 @@
   width: 1200px;
   top: -70px;
 }
-	
+	.aboutPLD .container .roww img{
+	height: 278px;
+}
 	
 	
 }
