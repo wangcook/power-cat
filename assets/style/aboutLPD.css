@@ -39,7 +39,8 @@
 	margin-bottom: 35px;
 }
 .aboutPLD .container .row1 .row img:nth-of-type(2){
-	margin: 0 12%;
+	margin-left: 12%;
+	margin-right: 12%;
 }
 .aboutPLD .container .row1 p{
 	line-height: 34px;

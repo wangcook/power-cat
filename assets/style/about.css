@@ -18,11 +18,9 @@
 .aboutW .container .Wp1{
 	line-height: 92px;
 }
-.aboutW .container .Wp1 span {
+.aboutW .container .Wp1 span img{
 	display: inline-block;
-	width: 15px;
-	height: 16px;
-	background:url(../images/02-关于我们/star.png) no-repeat;
+	margin-top: 42px;
 }
 .aboutW .container .Wp2{
 	line-height: 32px;
