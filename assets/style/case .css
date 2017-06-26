@@ -63,26 +63,49 @@
 .caseW .container .row .showw .bgW{
 	position: absolute;
 	z-index: 10;
-	height: 33.3%;
-	background: black;
+	height: 100px;
+	background: rgba(0,0,0,0);
 	bottom: 0;
 	width: 100%;
 	color: white;
-	display: none;
+	overflow: hidden;
 }
+.caseW .container .row .showw{
+	transition: all .6s;
+}
+.caseW .container .row .showw:hover .bgW{
+	background: rgba(0,0,0,0.7);
+}
+
+
+/*.caseW .container .row .showw:hover p{
+opacity: 0.7;
+}
+.caseW .container .row .showw:hover i{
+	opacity: 0.7;
+}*/
 .caseW .container .row .showw .bgW p{
-	font-size: 46px;
+	font-size: 16px;
 	position: absolute;
-	bottom: 60px;
+	bottom: 55px;
 	left: 20px;
+	color:#777777;
+	opacity: 0;
+}
+.caseW .container .row .showw .bgW p a{
+	color:#777777;
+}
+.caseW .container .row .showw .bgW p a:hover{
+	color:red;
 }
 .caseW .container .row .showw .bgW i{
 	font-style: normal;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 100;
 	left: 20px;
 	bottom:20px;
 	position: absolute;
+	opacity: 0;
 }
 
 

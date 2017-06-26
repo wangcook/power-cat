@@ -148,6 +148,21 @@ header .navbar .navbar-collapse .navbar-nav{
 	padding-top: 15px;
 	
 }
+header.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle{
+	background: black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: black!important;
+}
+
+header.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: black;
+}
+
+header .navbar .navbar-collapse .navbar-nav .dropdown-menu li a {
+	font-size: 16px;
+}
+
 header .header .navbar{
 	background: rgba(1,1,1,0);
 	border:0;
@@ -235,7 +250,7 @@ header .navbar-default .navbar-nav > li > a {
 .l_uppercase {
   text-transform: uppercase;
   font-size: 48px;
-  color: #fd3c3c;
+  color: #e30a2a;
   text-align: center;
   line-height: 60px;
   padding: 86px 0 40px;
@@ -260,7 +275,7 @@ footer .container {
 }
 footer .container .footer_des {
   width: 46%;
-  display: inline-block;
+  float: left;
 }
 footer .container .footer_des h4 {
   font-size: 16px;
@@ -274,8 +289,8 @@ footer .container .footer_des p {
 footer .container .footer_des p a {
   color: #999999;
 }
-footer .container .footer_des p a :hover {
-  text-decoration: underline;
+footer .container .footer_des p a:hover{
+  color: #e30a2a;
 }
 footer .container .footer_des1 {
   width: 52%;
@@ -424,4 +439,35 @@ header .navbar .navbar-collapse .navbar-right .dropdown .dropdown-toggle .brands
   	padding-left: 15px !important;
     padding-right: 15px!important;
   }
+}
+
+
+
+/*********************小于768px***************************/
+@media only screen and (max-width: 768px){
+	
+ footer .container .col-sm-6 .footer_des{
+  margin-top:10px;
+ }
+
+}
+
+
+
+.dropdown .dropdown-menu1{
+	display: none;
+}
+header .navbar .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu1{
+	display: block;
+}
+header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li{
+	margin-top: 10px;
+}
+header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li a{
+	color: white;
+	margin: 15px 10px;
+}
+
+header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li:hover a{
+	color: #e30a2a;
 }

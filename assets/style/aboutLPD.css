@@ -26,17 +26,17 @@
 	margin:0 auto;
 }
 .aboutPLD .container .row1 h4{
-	margin-bottom: 60px;
+	margin-bottom: 6%;
 	font-size: 30px;
 	color: #333131;
 }
 .aboutPLD .container .row1 h4:nth-of-type(1){
-	color: red;
+	color: #e30a2a;
 }
 .aboutPLD .container .row1 .row img{
 	display: inline-block;
 	text-align: center;
-	margin-bottom: 35px;
+	margin-bottom: 3.5%;
 }
 .aboutPLD .container .row1 .row img:nth-of-type(2){
 	margin-left: 12%;
@@ -48,7 +48,7 @@
 	color: #4e4c4c;
 }
 .aboutPLD .container .row .r1{
-	padding-top: 50px;
+	padding-top: 5%;
 	width: 20%;
 }
 .aboutPLD .container .row img{
@@ -57,8 +57,8 @@
 .aboutPLD .container .row .serviceF{
 	color: white;
 	font-size: 26px;
-	margin-bottom: 50px;
-	margin-top: 100px;
+	margin-bottom: 5%;
+	margin-top: 10%;
 }
 .aboutPLD .container .service p{
 	font-size: 16px;
@@ -77,18 +77,18 @@
 }
 .aboutPLD .container .cooperation .row .col-md-3{
 	width: 33.33%;
-	margin-top: 50px;
+	margin-top: 5%;
 }
 .aboutPLD .container .cooperation .row .col-md-3 img{
-	margin-bottom: 30px;
+	margin-bottom: 3%;
 }
 .aboutPLD .container .row .col-md-4 h4{
-	padding-top: 45px;
+	padding-top: 4.5%;
 	color: #ff0000;
 }
 .aboutPLD .container .row .col-md-4 p{
 	padding-top: 24px;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
 	line-height: 26px;
 }
 
@@ -132,12 +132,12 @@
 }
 .aboutPLD .container .foot p:nth-of-type(1){
 	color: black;
-	margin-top: 80px;
-	margin-bottom: 30px;
+	margin-top: 8%;
+	margin-bottom: 3%;
 }
 .aboutPLD .container .foot p:nth-of-type(2){
 	color: black;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 /*********************大屏1200px***************************/

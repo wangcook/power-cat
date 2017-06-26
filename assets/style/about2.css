@@ -27,7 +27,7 @@
 	color: #333131;
 }
 .aboutW2 .container .row1 h4:nth-of-type(1){
-	color: red;
+	color: #e30a2a;
 }
 .aboutW2 .container .row1 .row img{
 	display: inline-block;
@@ -51,8 +51,8 @@
 .aboutW2 .container .row .serviceF{
 	color: white;
 	font-size: 26px;
-	margin-bottom: 50px;
-	margin-top: 100px;
+	margin-bottom: 6%;
+	margin-top: 10%;
 }
 .aboutW2 .container .service p{
 	font-size: 16px;
@@ -76,8 +76,8 @@
 	color: white;
 	text-align: center;
 	border: 0;
-	margin-top: 50px;
-	margin-bottom: 100px;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
 .aboutW2 .container .row .col-md-4{
 	padding: 0;
