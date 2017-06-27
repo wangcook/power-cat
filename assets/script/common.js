@@ -46,15 +46,15 @@ $a.click(
 	}
 );
 
- var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-        slidesPerView: 1,
-        paginationClickable: true,
-        spaceBetween: 30,
-        loop: true
-     });
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev',
+	slidesPerView: 1,
+	paginationClickable: true,
+	spaceBetween: 30,
+	loop: true
+});
 
 //导航滑动
 window.onload = function() {
@@ -65,7 +65,7 @@ window.onload = function() {
 	for(var i = 0; i < aLi.length - 1; i++) {
 		aLi[i].onmouseover = function() {
 			// 改变背景的位置
-			startMove(oBg, this.offsetLeft+15);
+			startMove(oBg, this.offsetLeft + 15);
 		}
 	}
 }
@@ -86,9 +86,9 @@ function startMove(obj, target) {
 		left += speed;
 		if(Math.abs(speed) < 1 && Math.abs(target - left) < 1) {
 			clearInterval(obj.timer);
-			obj.style.left =target + 'px';
+			obj.style.left = target + 'px';
 		} else {
-			obj.style.left =obj.offsetLeft + speed+ 'px';
+			obj.style.left = obj.offsetLeft + speed + 'px';
 		}
 	}, 1);
 
@@ -96,30 +96,43 @@ function startMove(obj, target) {
 
 //旗下品牌背景移清除
 
+var Bli = $('.dropdown');
+var Ba = $('.dropdown').children('a');
+Bli.click(function() {
+	Bli.css('background', 'rgba(1,1,1,0)');
+	//	Ba.css('color','black');
+});
+Bli.mouseover(function() {
+	Bli.css('background', 'rgba(1,1,1,0)');
+});
+Bli.mouseout(function() {
+	Bli.css('background', 'rgba(1,1,1,0)');
+});
+Ba.click(function() {
+	$(this).css('background', 'rgba(1,1,1,0)');
+	Ba.css('color', 'white');
+});
+Ba.mouseover(function() {
+	$(this).css('background', 'rgba(1,1,1,0)');
+});
+Ba.mouseout(function() {
+	$(this).css('background', 'rgba(1,1,1,0)');
+});
 
-var Bli=$('.dropdown');
-var Ba=$('.dropdown').children('a');
-Bli.click(function(){
-	Bli.css('background','rgba(1,1,1,0)');
-//	Ba.css('color','black');
-});
-Bli.mouseover(function(){
-	Bli.css('background','rgba(1,1,1,0)');
-});
-Bli.mouseout(function(){
-	Bli.css('background','rgba(1,1,1,0)');
-});
-Ba.click(function(){
-	$(this).css('background','rgba(1,1,1,0)');
-	Ba.css('color','white');
-});
-Ba.mouseover(function(){
-	$(this).css('background','rgba(1,1,1,0)');
-});
-Ba.mouseout(function(){
-	$(this).css('background','rgba(1,1,1,0)');
-});
+//回到顶部
 
+$(function() {
+	var viewH = $(window).height();
+	change();
+	$(document).scroll(change);
 
+	function change() {
+		var scrollT = $(document).scrollTop();
 
+		if(scrollT > viewH/2) {
+			$('.htop').css('opacity', 1);
+		}
 
+	}
+
+})
