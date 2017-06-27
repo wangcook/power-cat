@@ -74,4 +74,9 @@
 
 
 
+var $h=$(window).height();
+var $w=$(document).width();
+$('.swiper-slide >img').css('height',$h).CSS('width',$w);
+
+
 

@@ -22,7 +22,7 @@
 	text-align: left;
 }
 .insightW .container .row1 p:nth-of-type(1){
-	margin-top: 50px;
+	margin-top: 5%;
 	color: #333333;
 	font-size: 23px;
 }
@@ -48,7 +48,7 @@
 .insightW .container .row1 p:nth-of-type(3){
 	line-height:29px;
 	color: #494949;
-	margin-bottom: 40px;
+	margin-bottom: 4%;
 }
 .insightW .container .row button:hover{
 	background: red;

@@ -98,7 +98,7 @@
 }
 .aboutPLD .container  h2{
 	font-size: 30px;
-	color: red;
+	color: #e30a2a;
 	margin-top: 90px;
 	margin-bottom: 60px;
 }
@@ -119,12 +119,12 @@
 	margin-top: 50px;
 }
 .aboutPLD .container .recruit .col-md-3 p a{
-	font-size: 28px;
+	font-size: 24px;
 	color: #333333;
 }
 .aboutPLD .container .recruit .col-md-3 p {
 	font-size: 16px;
-	color: black;
+	color: #777777;
 	line-height: 40px;
 }
 .aboutPLD .container .row p{

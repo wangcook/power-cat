@@ -1,7 +1,7 @@
 .caseW2{
   width: 100%;
   height: auto;
-  padding-bottom: 100px;
+  padding-bottom: 10%;
   background: #f5f5f5;
 }
 .caseW2 .content1{
@@ -47,8 +47,8 @@
 	margin: 5% 0;
 }
 .caseW2 .container .row1 p:nth-of-type(3){
-	margin-top: 35px;
-	margin-bottom: 80px;
+	margin-top: 3.5%;
+	margin-bottom:8%;
 }
 .caseW2 .container .row img{
 	width: 100%;

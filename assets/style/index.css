@@ -30,12 +30,15 @@
   border-right: 0;
   text-align: center;
 }
-.index .about .container .l_spe5 div.w20 {
+.index .about .container .l_spe5 .w20 {
   width: 20%;
 }
 .index .about .container .l_spe5 div:hover {
   background: #e30a2a;
   border: 1px solid #e30a2a;
+}
+.index .about .container .l_spe5 div:hover a {
+  color: white;
 }
 .index .about .container .l_spe5 div img:nth-of-type(2) {
   display: none;

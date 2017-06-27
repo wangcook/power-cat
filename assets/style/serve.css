@@ -27,11 +27,11 @@
 }
 .serveW .col-md-6 h3{
 	color: white;
-	margin-top: 70px;
+	margin-top: 7%;
 }
 .serveW .col-md-6 p{
-	margin-top: 20px;
-	margin-bottom: 45px;
+	margin-top: 2%;
+	margin-bottom: 4.5%;
 	font-size: 15px;
 	color: #e6e5e8;
 }
@@ -50,6 +50,11 @@
 	/*padding-left: 80px;*/
 }
 
+.serveW .col-md-6{
+	padding: 6%;
+	padding-top: 3%;
+}
+
 /*********************大屏1200px***************************/
 @media only screen and (min-width: 1200px){
 	
@@ -57,11 +62,7 @@
   width: 1200px;
   top: -100px;
 }
-.serveW .col-md-6{
-	height: 537px;
-	padding-left: 60px;
-	padding-right: 60px;
-}
+
 .serveW .cooperation .row{
 	padding-left: 80px;
 }
@@ -72,11 +73,10 @@
 .serveW .cooperation .poweract{
 	height: 180px;
 }
-.serveW .col-md-6{
-	height: 537px;
-	padding-left: 60px;
-	padding-right: 60px;
-}
+/*.serveW .col-md-6{
+	padding: 60px;
+	padding-top: 0;
+}*/
 
 }
 

@@ -70,8 +70,14 @@
 	color: white;
 	overflow: hidden;
 }
-.caseW .container .row .showw{
+.caseW .container .row .showw img{
 	transition: all .6s;
+}
+
+
+.caseW .container .row .showw:hover img{
+	transform: scale(1.2);
+	opacity: 0.85;
 }
 .caseW .container .row .showw:hover .bgW{
 	background: rgba(0,0,0,0.7);
@@ -79,10 +85,12 @@
 
 
 /*.caseW .container .row .showw:hover p{
-opacity: 0.7;
+opacity: 1;
+transform: translateY(-10px);
 }
 .caseW .container .row .showw:hover i{
-	opacity: 0.7;
+	opacity: 1;
+	transform: translateY(-10px);
 }*/
 .caseW .container .row .showw .bgW p{
 	font-size: 16px;
@@ -92,6 +100,12 @@ opacity: 0.7;
 	color:#777777;
 	opacity: 0;
 }
+/*.caseW .container .row .showw p{
+	transition: all .6s;
+}
+.caseW .container .row .showw i{
+	transition: all .6s;
+}*/
 .caseW .container .row .showw .bgW p a{
 	color:#777777;
 }
@@ -107,7 +121,11 @@ opacity: 0.7;
 	position: absolute;
 	opacity: 0;
 }
-
+.caseW .container .row .text p{
+	text-align: center;
+	color: black;
+	line-height: 300px;
+}
 
 
 
@@ -119,7 +137,16 @@ opacity: 0.7;
   width: 1200px;
   top: -100px;
 }
-	
+	.caseW .container .row .col-md-6{
+		width: 600px;
+		height: 600px;
+		overflow: hidden;
+	}
+	.caseW .container .row .col-md-3{
+		width: 300px;
+		height: 300px;
+		overflow: hidden;
+	}
 	
 	
 }
