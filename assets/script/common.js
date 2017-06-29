@@ -129,10 +129,72 @@ $(function() {
 	function change() {
 		var scrollT = $(document).scrollTop();
 
-		if(scrollT > viewH/2) {
+		if(scrollT > viewH / 2) {
 			$('.htop').css('opacity', 1);
 		}
-
+		if(scrollT <= viewH / 2) {
+			$('.htop').css('opacity', 0);
+		}
 	}
 
 })
+
+$(document).ready(function() {
+	$('.htop').click(function() {
+		$('html, body').animate({
+			scrollTop: 0
+		}, 'slow');
+	});
+});
+
+//导航下拉渐变
+
+$(document).ready(function() {
+
+	function changev() {
+		$('.img1').css('display', "none");
+		$('.img2').css('display', "block");
+		$('header').css('background', 'white');
+		$('header .navbar-default .navbar-nav li a').css('color', 'black');
+		$('header .navbar-default .navbar-nav .bg').css('border-bottom', ' 3px solid red');
+		$('header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li a').css('color', 'red');
+		//		$('header').animate({
+		//			opacity: 0
+		//		}, 1000, function() {
+		//			$('.img1').remove();
+		//			$('.img2').css('display', "block");
+		//			$('header').css('background', 'white');
+		//			$('header .navbar-default .navbar-nav li a').css('color', 'black');
+		//			$('header .navbar-default .navbar-nav .bg').css('border-bottom', ' 3px solid red');
+		//			$('header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li a').css('color', 'red');
+		//		});
+		//
+		//		$('header').animate({
+		//			opacity: 1
+		//		}, 1000);
+
+	}
+
+	$(window).scroll(function() {
+		//$(window).scrollTop()这个方法是当前滚动条滚动的距离
+		//$(window).height()获取当前窗体的高度
+		//$(document).height()获取当前文档的高度
+
+		$gun = $(window).scrollTop();
+
+		if($gun > 50) {
+			changev();
+		}
+
+		if($gun <= 50) {
+			$('.img1').css('display', "block");
+			$('.img2').css('display', "none");
+			$('header').css('background', 'rgba(0,0,0,0)');
+			$('header .navbar-default .navbar-nav li a').css('color', 'white');
+			$('header .navbar-default .navbar-nav .bg').css('border-bottom', ' 3px solid white');
+			$('header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li a').css('color', 'white');
+		}
+
+	});
+
+});

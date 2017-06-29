@@ -1,0 +1,71 @@
+.vivo1{
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+  /*padding-bottom: 9%;*/
+}
+.vivo1 .content1{
+  height:100%;
+  position: relative;
+  background: white;
+  z-index: 11;
+  text-align: center;
+  padding-top: 10px;
+}
+.vivo1 .container .app{
+	padding: 5% 6.66% 0 6.66%;
+	text-align:justify;
+	text-justify:distribute-all-lines;
+	font-size: 18px;
+}
+.vivo1 .container .app h2{
+	font-size: 34px;
+	color:#ff0000;
+	position: relative;
+}
+.vivo1 .container .app h2 span{
+	color:#999999;
+	font-size: 18px;
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+}
+.vivo1 .container p{
+	color: #000000;
+	line-height: 33px;
+	margin: 4% 0;
+	text-align:justify;
+	font-size: 18px;
+}
+.vivo1 .footW h2{
+	color: red;
+	font-size: 30px;
+	margin-bottom: 35px;
+	text-align: left;
+}
+
+/*********************大屏1200px***************************/
+@media only screen and (min-width: 1200px){
+	
+	.vivo1 .container {
+  width: 1200px;
+  top: -100px;
+}
+
+
+}
+
+
+/*********************小于1200px***************************/
+@media only screen and (max-width: 1200px){
+	
+.vivo1 .footW {
+	padding-top: 10%!important;
+}
+
+.vivo1 .col-lg-4{
+	margin-bottom: 5%;
+}
+
+}
+

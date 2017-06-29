@@ -39,7 +39,7 @@
 .aboutW .container .sub .col-md-4:hover{
 	background: #e30a2a;
 }
-.aboutW .container .sub .col-md-4:nth-of-type(6):hover{
+.aboutW .container .sub .visible-lg:hover{
 	background: white!important;
 }
 .aboutW .container .sub .col-md-4:hover img:nth-of-type(1){
@@ -48,8 +48,8 @@
 .aboutW .container .sub .col-md-4:hover img:nth-of-type(2){
 	display: block;
 }
-.aboutW .container .sub .col-md-4:hover a{
-	color: white;
+.aboutW .container .sub .row:hover a{
+	color: white!important;
 }
 .aboutW .container .sub .col-md-4 img{
 	height: 173px;
@@ -79,7 +79,8 @@
 
 .aboutW .container .power .col-md-4 h3{
 	font-size: 22px;
-	line-height: 100px;
+	padding: 4% 0;
+	padding-top: 7%;
 }
 .aboutW .container .power .col-md-4 p{
 	line-height: 32px;
@@ -209,7 +210,7 @@
 	height: 490px;
 }
 	.aboutW .container .power .col-md-4{
-	height: 240px;
+	/*height: 240px;*/
 	}
 	
 	
@@ -227,9 +228,15 @@
 	
 }
 
+@media only screen and (max-width: 1200px){
+	
 
-
-
+.aboutW .container .sub .col-md-4 img{
+	height: 120px;
+}
+	
+	
+}
 
 
 
@@ -255,7 +262,6 @@
 	.aboutW .container .core .col-md-4{
 	padding-bottom: 5%;
 	}
-	
 }
 
 
@@ -275,5 +281,9 @@
 	height: 239px;
 	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5;
+}
+
+.aboutW .container .power .col-md-4 h3{
+	line-height: 80px;
 }
 }

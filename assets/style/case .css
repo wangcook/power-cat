@@ -1,20 +1,22 @@
-.caseW{
-  width: 100%;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: #f5f5f5;
+.caseW {
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #f5f5f5;
 }
-.caseW .container{
-  height:100%;
-  position: relative;
-  background: white;
-  z-index: 11;
-  text-align: center;
-  padding-top: 10px;
+
+.caseW .container {
+	height: 100%;
+	position: relative;
+	background: white;
+	z-index: 11;
+	text-align: center;
+	padding-top: 10px;
 }
-.caseW .container .nav1 li{
-	background:#e6e6e6;
+
+.caseW .container .nav1 li {
+	background: #e6e6e6;
 	width: 110px;
 	height: 40px;
 	margin: 5px 10px;
@@ -22,65 +24,72 @@
 	line-height: 40px;
 	text-align: center;
 }
-.caseW .container .nav1 .active{
+
+.caseW .container .nav1 .active {
 	background: black;
 }
-.caseW .container .nav1 .active a{
+
+.caseW .container .nav1 .active {
 	color: white;
 }
-.caseW .container .nav1 li:hover{
+
+.caseW .container .nav1 a:hover li {
 	background: black;
 }
-.caseW .container .nav1 li:hover a{
-	color: white;
+
+.caseW .container .nav1 a:hover li {
+	color: white!important;
 	text-decoration: none;
 }
-.caseW .container .row img{
-	width:100%;
+
+.caseW .container .row img {
+	width: 100%;
 	height: 100%;
 }
-.caseW .container .row .col-md-6{
+
+.caseW .container .row .col-md-6 {
 	padding: 0;
 	position: relative;
 }
+
 .caseW .container .row .col-md-3 {
 	padding: 0;
 	position: relative;
 }
-.caseW .showw  span{
+
+.caseW .showw span {
 	height: 28px;
 	line-height: 28px;
 	position: absolute;
-	padding:0  10px;
+	padding: 0 10px;
 	top: 0;
- transform: translateX(-38px);
+	transform: translateX(-38px);
 	color: #4c3e4c;
 	background: white;
 }
-/*.caseW .container .row .showw{
-	position: relative;
-}*/
-.caseW .container .row .showw .bgW{
+
+
+.caseW .container .row .showw{
+	overflow: hidden;
+}
+
+.caseW .container .row .showw .bgW {
 	position: absolute;
 	z-index: 10;
 	height: 100px;
-	background: rgba(0,0,0,0);
+	background: rgba(0, 0, 0, 0);
 	bottom: 0;
 	width: 100%;
 	color: white;
 	overflow: hidden;
 }
-.caseW .container .row .showw img{
+
+.caseW .container .row .showw img {
 	transition: all .6s;
 }
 
-
-.caseW .container .row .showw:hover img{
-	transform: scale(1.2);
-	opacity: 0.85;
-}
-.caseW .container .row .showw:hover .bgW{
-	background: rgba(0,0,0,0.7);
+.caseW .container .row .showw:hover .bgW {
+	background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -92,93 +101,81 @@ transform: translateY(-10px);
 	opacity: 1;
 	transform: translateY(-10px);
 }*/
-.caseW .container .row .showw .bgW p{
+
+.caseW .container .row .showw .bgW p {
 	font-size: 16px;
 	position: absolute;
 	bottom: 55px;
 	left: 20px;
-	color:#777777;
+	color: #777777;
 	opacity: 0;
 }
+
+
 /*.caseW .container .row .showw p{
 	transition: all .6s;
 }
 .caseW .container .row .showw i{
 	transition: all .6s;
 }*/
-.caseW .container .row .showw .bgW p a{
-	color:#777777;
+
+.caseW .container .row .showw .bgW p a {
+	color: #777777;
 }
-.caseW .container .row .showw .bgW p a:hover{
-	color:red;
+
+.caseW .container .row .showw .bgW p a:hover {
+	color: red;
 }
-.caseW .container .row .showw .bgW i{
+
+.caseW .container .row .showw .bgW i {
 	font-style: normal;
 	font-size: 20px;
 	font-weight: 100;
 	left: 20px;
-	bottom:20px;
+	bottom: 20px;
 	position: absolute;
 	opacity: 0;
 }
-.caseW .container .row .text p{
+
+.caseW .container .row .text p {
 	text-align: center;
 	color: black;
-	line-height: 300px;
+	height: 20%;
+	margin: 40%  0;
 }
 
-
-
+.caseW .container button:hover {
+	color: white;
+	background: red;
+}
+	.caseW .container .row .showw:hover img {
+		transform: scale(1.2);
+		opacity: 0.85;
+	}
 
 /*********************大屏1200px***************************/
-@media only screen and (min-width: 1200px){
-	
+
+@media only screen and (min-width: 1200px) {
 	.caseW .container {
-  width: 1200px;
-  top: -100px;
-}
-	.caseW .container .row .col-md-6{
+		width: 1200px;
+		top: -100px;
+	}
+	.caseW .container .row .col-md-6 {
 		width: 600px;
 		height: 600px;
 		overflow: hidden;
 	}
-	.caseW .container .row .col-md-3{
+	.caseW .container .row .col-md-3 {
 		width: 300px;
 		height: 300px;
 		overflow: hidden;
 	}
-	
-	
+
 }
 
 
 /*********************小于1200px***************************/
-@media only screen and (max-width: 1200px){
-	
 
+@media only screen and (max-width: 1200px) {}
 
-}
-
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-	
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
