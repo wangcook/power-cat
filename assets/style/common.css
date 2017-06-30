@@ -452,19 +452,8 @@ header .navbar .navbar-collapse .navbar-nav .dropdown-menu li:hover{
 /************************小于1200的小屏********************************/
 @media (max-width: 1200px){
 	
-	header {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  left: 0;
-  top: 0;
-  background: black;
-  color: #fff;
-  font-size: 16px;
-	}
-
-	 header{
-  background: black;
+header{
+  background: black!important;
 }
 
  .container .navbar-collapse .bj li {
@@ -504,6 +493,8 @@ header .navbar .navbar-collapse .navbar-nav .dropdown-menu li:hover{
  footer .container .col-sm-6 .footer_des{
   margin-top:10px;
  }
+
+
 
 }
 

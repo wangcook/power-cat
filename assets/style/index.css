@@ -59,7 +59,7 @@
 	height: 173px;
 	margin: 0 auto;
 }
-.index .about .container .l_spe5 div:last-child {
+.index .about .container .l_spe5 a .last{
   border-right: 1px solid #b5b5b5;
 }
 .index .vedioBox {

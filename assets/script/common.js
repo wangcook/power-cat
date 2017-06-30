@@ -182,14 +182,14 @@ $(document).ready(function() {
 
 		$gun = $(window).scrollTop();
 
-		if($gun > 50) {
+		if($gun > 100) {
 			changev();
 		}
 
-		if($gun <= 50) {
+		if($gun <= 100) {
 			$('.img1').css('display', "block");
 			$('.img2').css('display', "none");
-			$('header').css('background', 'rgba(0,0,0,0)');
+			$('header').css('background', 'rgba(1,1,1,0)');
 			$('header .navbar-default .navbar-nav li a').css('color', 'white');
 			$('header .navbar-default .navbar-nav .bg').css('border-bottom', ' 3px solid white');
 			$('header .navbar .navbar-collapse .navbar-nav .dropdown .dropdown-menu1 li a').css('color', 'white');
