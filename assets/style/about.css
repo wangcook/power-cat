@@ -29,7 +29,7 @@
 
 .aboutW .container .Wp2 {
 	line-height: 32px;
-	color: #e30a2a;
+	color: #333333;
 	font-size: 16px;
 }
 
@@ -37,7 +37,7 @@
 	margin: 0 8.5%;
 	margin-top: 30px;
 	margin-bottom: 60px;
-	color: #333131;
+	color: #666666;
 	line-height: 33px;
 	font-size: 16px;
 }
@@ -93,14 +93,15 @@
 }
 
 .aboutW .container .power .col-md-4 h3 {
-	font-size: 22px;
+	font-size: 18px;
 	padding: 4% 0;
 	padding-top: 7%;
 }
 
 .aboutW .container .power .col-md-4 p {
 	line-height: 32px;
-	font-size: 16px;
+	font-size: 14px;
+	color: #666666;
 }
 
 
@@ -114,12 +115,15 @@
 
 .aboutW .container .core .col-md-4 h4 {
 	padding-top: 40px;
-	color: #ff0000;
+	font-size: 18px;
+	color: #333333;
 }
 
 .aboutW .container .core .col-md-4 p {
 	padding-top: 20px;
 	line-height: 28px;
+	color: #666666;
+	font-size: 14px;
 }
 
 
@@ -133,7 +137,7 @@
 	list-style: disc;
 	text-align: left;
 	margin-left: 25%;
-	color: #222222;
+	color: #666666;
 	line-height: 33px;
 }
 
@@ -163,8 +167,11 @@
 
 .aboutW .container .history .row .t p:nth-of-type(2) {
 	line-height: 25px;
+	color: #666666;
 }
-
+.aboutW .container .history .row .t p:nth-of-type(3) {
+	color: #666666;
+}
 .aboutW .container .history .row .t1 {
 	left: 943px;
 	top: 326px;

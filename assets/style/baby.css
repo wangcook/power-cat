@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   background: #f5f5f5;
-  padding-bottom: 9%;
+  padding-bottom: 8%;
 }
 .babyW .content1{
   height:100%;
@@ -34,7 +34,7 @@
 	bottom: 0;
 }
 .babyW .container .app p{
-	color: #000000;
+	color: #666666;
 	line-height: 33px;
 }
 .babyW .container .app p:nth-of-type(1){
