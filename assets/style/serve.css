@@ -11,7 +11,89 @@
   z-index: 11;
   text-align: center;
 }
-.serveW .col-md-6{
+.serveW .container .row dl {
+margin: 0 auto;
+margin-top: 5%;
+}
+.serveW .container .row dl dt{
+	display: inline-block;
+}
+.serveW .container .row dl dd{
+	display: inline-block;
+	vertical-align:top
+}
+.serveW .container .row dl dd p:nth-of-type(1){
+	color: #333333;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+.serveW .container .row dl dd p{
+	color: #666666;
+	font-size: 15px;
+	line-height: 28px;
+	text-align: left;
+}
+.serveW .container .line img{
+	margin: 0 auto;
+	padding: 3% 0;
+}
+
+.serveW .container .row .s1{
+	position: relative;
+	overflow: hidden;
+}
+.serveW .container .row .s1 img:nth-of-type(1){
+	width:100%;
+	transition: all .6s; 
+	opacity: 0.85;
+}
+.serveW .container .row .s1 img:nth-of-type(2){
+	position: absolute;
+	z-index: 10;
+	top: 20%;
+	left: 15%;
+}
+.serveW .container .row .s1 p{
+	position: absolute;
+	z-index: 10;
+	bottom: 10%;
+	left: 30%;
+	color: white;
+}
+.serveW .container .row .s1:hover img:nth-of-type(1){
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+
+/*.serveW .container .row .s1{
+	background: url(../images/03-服务/f4.png) no-repeat;
+}
+.serveW .container .row .s2{
+	background: url(../images/03-服务/f5.png) no-repeat;
+}
+.serveW .container .row .s3{
+	background: url(../images/03-服务/f6.png) no-repeat;
+}
+.serveW .container .row .s4{
+	background: url(../images/03-服务/f7.png) no-repeat;
+}
+.serveW .container .row .s5{
+	background: url(../images/03-服务/f8.png) no-repeat;
+}
+.serveW .container .row .s6{
+	background: url(../images/03-服务/f9.png) no-repeat;
+}
+.serveW .container .row .s7{
+	background: url(../images/03-服务/f10.png) no-repeat;
+}
+.serveW .container .row .s8{
+	background: url(../images/03-服务/f11.png) no-repeat;
+}*/
+
+
+
+/*.serveW .col-md-6{
 	color: #8c8c8c;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -35,7 +117,7 @@
 	margin-bottom: 4.5%;
 	font-size: 15px;
 	color: #e6e5e8;
-}
+}*/
 .serveW .col-md-4 img{
 	margin: 0 auto;
 }
@@ -51,17 +133,17 @@
 	/*padding-left: 80px;*/
 }
 
-.serveW .col-md-6{
+/*.serveW .col-md-6{
 	padding: 6%;
 	padding-top: 3%;
-}
+}*/
 
 /*********************大屏1200px***************************/
 @media only screen and (min-width: 1200px){
 	
 	.serveW .container {
   width: 1200px;
-  top: -100px;
+  top: -80px;
 }
 
 .serveW .cooperation .row{
@@ -100,5 +182,28 @@
 	margin-bottom: 5%;
 }
 
+
+
+
 }
 
+@media only screen and (max-width: 768px){
+	
+.serveW .container .row .s1 img:nth-of-type(2){
+	left: 15%;
+}
+
+
+
+
+}
+@media only screen and (max-width: 320px){
+	
+.serveW .container .row .s1 img:nth-of-type(2){
+	left: 12%;
+}
+
+
+
+
+}

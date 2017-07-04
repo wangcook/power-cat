@@ -26,8 +26,8 @@
 	}, {}]
 }, {}, [1])
 //设置相片的高度
-var $imgH = $('.banner-img').height();
-$('.banner-img > img').css('height', $imgH);
+//var $imgH = $('.banner-img').height();
+//$('.banner-img > img').css('height', $imgH);
 
 //导航添加2px边框
 var $li = $('.bj').find("li");
@@ -180,9 +180,12 @@ $(document).ready(function() {
 		//$(window).height()获取当前窗体的高度
 		//$(document).height()获取当前文档的高度
 
-		$gun = $(window).scrollTop();
 
-		if($gun > 100) {
+
+
+		  $gun = $(window).scrollTop();
+        var $WW=window.screen.width;
+		if($gun > 100  && $WW >=1200) {
 			changev();
 		}
 
